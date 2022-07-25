@@ -1,8 +1,6 @@
 import React from "react";
 import './list.css';
 import Todo from '../todo/Todo';
-import { logDOM } from "@testing-library/react";
-import { Simulate } from "react-dom/test-utils";
 
 
 

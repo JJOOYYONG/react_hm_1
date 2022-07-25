@@ -8,8 +8,6 @@
 }
 .list{
     height: 40%;
-    width: 20%;
-    border: 1px solid green;
-    border-radius: 1rem;
     padding: 0.5rem;
+    display: flex;
 }

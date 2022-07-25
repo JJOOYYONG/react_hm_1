@@ -16,7 +16,7 @@ function Form({setTodos,todos}){
     setTodo({...todo,[name]:value,id:todos.length+1});
   }
   const onSumitHandler =(event)=>{
-    console.log(todo)
+    
     event.preventDefault();
     setTodos([...todos,todo]);
     setTodo(initState);
